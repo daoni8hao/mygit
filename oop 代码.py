@@ -17,6 +17,7 @@ class PythonStudent():
     age = 18
     course = 'python'
     # 定义动作
+    @property
     def doHomework(self):
         print('I 在做作业')
 
@@ -27,7 +28,8 @@ yueyue = PythonStudent()
 print(yueyue.name)
 print(yueyue.age)
 # 注意成员函数的调用没有传入进参数
-yueyue.doHomework()
+yueyue.doHomework
+
 
 class Student():
     name = "dana"
@@ -78,4 +80,3 @@ print(a.age)
 print('*' * 20)
 print(id(a.name))
 print(id(a.age))
-
